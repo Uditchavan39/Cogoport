@@ -336,7 +336,8 @@ color: red !important;
     --font-family-heading: "Ubuntu",sans-serif;
 }
 .pg_style{
-    line-height: 24px;
+    line-height: 24px; 
+    font-family: "PT Sans",sans-serif !important;
 }
 .cogo_video{
     display: flex;
@@ -361,6 +362,7 @@ color: red !important;
 .talk_to_us{
     font-weight: bold;
     font-size: 12px;
+    font-family: "PT Sans";
 }
 .whatsapp_form{
     position: relative;
@@ -376,6 +378,7 @@ color: red !important;
 .whatsapp_number{
     min-height: 20px;    border: none;
     align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .whatsapp_number:focus{
     outline: none;
@@ -424,10 +427,11 @@ color: red !important;
 .h2-style{
     font-size: 40px;
     font-weight: 700;
-
+    font-family: "sans-serif",sans-serif;
 }
 .h2_span_style{
     font-size: 14px;
+    font-family: "PT Sans";
 }
 .our_product_heading_container{
     width: 100%;
@@ -436,6 +440,8 @@ color: red !important;
     padding-bottom: 28px;
     text-align: center;
     margin: 00px;
+    font-family: "sans-serif",sans-serif;
+    font-weight: 700;
 
 }
 .Our_Products_Content{
@@ -1106,6 +1112,7 @@ button {
     padding-left: 8px;
     margin: 0;
     font-size: 16px;
+    font-family: "PT Sans";
 }
 .stage_2_style{
     width: 300px;
