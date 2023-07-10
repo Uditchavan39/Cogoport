@@ -1,0 +1,2 @@
+Difficult to do animation for "trusted by part" (moving logos).
+alignment of items while doing it responsive.
