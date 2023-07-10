@@ -399,6 +399,7 @@ color: red !important;
     font-weight: 700;
     line-height: 24px;
     text-align: center;
+    font-family: "PT Sans",sans-serif;
 }
 .empty_box_to_create_curve{
     height: 200px;
@@ -478,12 +479,14 @@ color: red !important;
     text-align: center;
     color: black;
     font-weight: bold;
+    font-family: "PT Sans",sans-serif;
 }
 .left_heading_of_our_products{
     font-size: 24px;
     font-weight: bold;
     margin-right: 50px;
     width: 250px;
+    font-family: "PT Sans",sans-serif;
 }
 .find_out_more{
     font-weight: 700;
@@ -594,7 +597,7 @@ color: red !important;
 
 }
 .ready_to_take_main_container{
-    width: 100%;
+    width: 1200px;
     position: relative;
     display: flex;
     align-items: center;
@@ -609,6 +612,7 @@ color: red !important;
     line-height: 1.2;
     margin-top: 0;
     font-weight: 700;
+    font-family: sans-serif;
 }
 .ready_to_get_started_button{
     border: 1px solid #ee3425;
@@ -651,6 +655,7 @@ button {
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 50px;
+    font-family: "PT Sans",sans-serif;
 }
 .industry_item_text{
     display: flex;
@@ -659,6 +664,7 @@ button {
     font-weight: 700;
     color: #000;
     text-align: center;
+    font-family: "PT Sans";
 }
 .footer3{
     background: #ebbe00;
@@ -844,7 +850,9 @@ button {
     text-align: center;
     font-weight: 700;
     margin-bottom: 1em;
+font-family: 'PT Sans',sans-serif;
 }
+
 .styles_cards{
     display: flex;
     flex-wrap: wrap;
@@ -953,7 +961,7 @@ button {
     font-size: 28px !important;
     line-height: 1.2;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: "PT Sans",sans-serif !important;
 }
 .grow_info{
     font-size: 16px;
@@ -1041,13 +1049,12 @@ button {
     margin-bottom: 50px;
 }
 .how_it_works_heading{
-    font-size: 28px;
+    font-size: 28px !important;
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 1em;
-
-    font-family: var(--font-family-heading);
-    color: var(--font-color-heading);
+    font-weight: 700;
+    font-family: sans-serif;
 }
 .how_it_works_button_container{
     display: flex;
@@ -1093,6 +1100,8 @@ button {
     margin-top: 0;
     margin-bottom: 1em;
     box-sizing: border-box;
+    font-family: "PT Sans";
+   
 }
 .stage_1_heading{
     display: flex;
@@ -1153,6 +1162,7 @@ button {
     font-size: 28px;
     font-weight: 700;
     line-height: 1.2;
+    font-family: sans-serif;
     margin-bottom: 1em;
 }
 .trusted_by_img{
@@ -1237,6 +1247,10 @@ video{
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+.find_out_more_text{
+    font-size: 12px;
+    font-family: "PT Sans";
 }
 @media (max-width:767px){
     
@@ -1443,6 +1457,7 @@ padding: 16px;
     }
     .data_text{
         font-size: 14px;
+        
     }
     .Header{
         display: flex;
